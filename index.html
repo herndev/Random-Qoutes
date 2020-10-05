@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Qoutes</title>
+	<link href = "https://fonts.googleapis.com/css? family= "lobster" rel= "stylesheet" type= "text/css">
+	<script src="https://kit.fontawesome.com/a8af25a7df.js" crossorigin="anonymous"></script>
+	<style>
+
+		*{
+		  margin: 0;
+		  padding: 0;
+		  list-style: none;
+		  vertical-align: baseline;
+		}
+
+		div {
+		  position: relative;
+		  z-index: 2;
+		}
+
+		body {
+		  background-color: #77B1A9;
+		  color: #77B1A9;
+		  font-family: 'lobster', sans-serif;
+		  font-weight: 500;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  height: 
+		}
+
+		.footer {
+		  width:500px;
+		  text-align:center;
+		  display:block;
+		  margin:15px auto 30px auto;
+		  font-size:0.8em;
+		  color:#fff;
+		  a {
+		    font-weight:500;
+		    text-decoration:none;
+		    color:#fff;
+		  }
+		}
+
+		#quote-box {
+		  border-radius:3px;
+		  position:relative;
+		  margin:8% auto auto auto;
+		  width:500px;
+		  padding:40px 50px;
+		  display:table;
+		  background-color:#fff;
+		}
+
+		.quote-text {
+		  i{
+		    font-size:1.0em;
+		    margin-right: 0.4em;
+		  }
+		  text-align:center;
+		  width:500px;
+		  height:auto;
+		  clear:both;
+		  font-weight:500;
+		  font-size:1.75em;
+		}
+
+		.quote-author {
+		   width:500px;
+		   height:auto;
+		   clear:both;
+		   padding-top:20px;
+		   font-size:1em; 
+		   text-align:right;
+		}
+
+		.buttons {
+		   width:500px;
+		   margin:auto;
+		   display:block;
+		}
+
+		.button {
+		    height:38px;
+		    border:none;
+		    border-radius:3px;
+		    color:#fff;
+		    background-color:#77B1A9;
+		    outline:none;
+		    font-size:0.85em;
+		    padding: 8px 18px 6px 18px;
+		    margin-top:30px;
+		    opacity:1;
+		    cursor:pointer;
+		}
+
+		#new-quote {
+		  padding:4px;
+		  padding-top:2px;
+		  padding-bottom:4px;
+		  text-align:center;
+		  font-size:1.2em;
+		  margin-right:5px;
+		  height:30px;
+		  width:110px;
+		  float: right;
+		}
+
+		#tweet-quote, #tumblr-quote {
+		  float:left;
+		  padding:4px;
+		  padding-top:2px;
+		  padding-bottom:4px;
+		  text-align:center;
+		  font-size:1.2em;
+		  margin-right:5px;
+		  height:30px;
+		  width:30px;
+		}
+
+		.fa-quote-left{
+			margin-right: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+	  <div id="quote-box">
+	    <div class="quote-text">
+	      <i class="fa fa-quote-left"> </i><span id="text"></span>
+	    </div>
+	    <div class="quote-author">
+	      - <span id="author"></span>
+	    </div>
+	    <div class="buttons">
+ 	       <a href="twitter.com/intent/tweet" class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+	        <i class="fa fa-twitter"></i>
+	      </a>
+	      <button class="button" id="new-quote">New quote!</button>
+	    </div>
+	  </div>
+	</div>
+
+
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
