@@ -1,12 +1,12 @@
-<img src="https://reactjsexample.com/content/images/2019/11/Random-Quote-Generator.jpg" title="Random-Quote-Generator" alt="Random-Quote-Generator">
+<img src="https://miro.medium.com/max/924/1*8wNWIJh1hPBoGFxLrYlvUQ.png" title="Random-Quote-Machine" alt="Random-Quote-Machine">
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
 # Random Qoutes
 
-> Basic random qoutes generator using (html, css, and js)
+> Basic random qoute machine using (html, css, and js)
 
 
-- Free Code Camp (Random qoutes generator).
+- Free Code Camp (Random qoute machine).
 - This repo also uses sass, jquery, font-awesome, and google fonts APIs.
 
