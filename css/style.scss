@@ -28,9 +28,9 @@ body {
     font-size:0.8em;
     color:#fff;
     a {
-    font-weight:500;
-    text-decoration:none;
-    color:#fff;
+        font-weight:500;
+        text-decoration:none;
+        color:#fff;
     }
 }
 
@@ -46,8 +46,8 @@ body {
 
 .quote-text {
     i{
-    font-size:1.0em;
-    margin-right: 0.4em;
+        font-size:1.0em;
+        margin-right: 0.4em;
     }
     text-align:center;
     width:500px;
@@ -112,4 +112,8 @@ body {
 
 .fa-quote-left{
     margin-right: 15px;
+}
+
+.text-orange{
+    color: rgb(255, 202, 103);
 }

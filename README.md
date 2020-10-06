@@ -4,7 +4,7 @@
 
 # Random Qoutes
 
-> Basic random qoutes generator using (html, css, js)
+> Basic random qoutes generator using (html, css, and js)
 
 
 - Free Code Camp (Random qoutes generator).
