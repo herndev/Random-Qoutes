@@ -11,8 +11,8 @@ div {
 }
 
 body {
-  background-color: #77B1A9;
-  color: #77B1A9;
+  background-color: #00aa71;
+  color: #00aa71;
   font-family: 'lobster', sans-serif;
   font-weight: 500;
   display: -webkit-box;
@@ -85,7 +85,7 @@ body {
   border: none;
   border-radius: 3px;
   color: #fff;
-  background-color: #77B1A9;
+  background-color: #00aa71;
   outline: none;
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
